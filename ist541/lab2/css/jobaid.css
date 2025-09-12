@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2 { 
-	text-align:center;     /* centers h1 and h2 content */
+	text-align: center;     /* centers h1 and h2 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -25,48 +25,42 @@ h1, h2 {
 .stepTitle{
 	padding: 20px;
 	text-align: center;
-	background-color:#39F3F3;
+	background-color: #39F3F3;
 	font-weight: bold;
 	font-size: 150%;
  }
 
 .stepContent{ 
 	background-color: white;
-	padding:7px;
-	display: flex;
-	flex-wrap:wrap;
-	justify-content: space-evenly;
+	padding: 7px;
+	desplay: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .stepDescription {
-	width:40%;
-	padding:5px;
-	line-height:145%;
-}
-
-.stepImage {
-	width:40%;	
-	padding:5px;
-	text-align: center;
+	width: 40%;
+	padding: 5px;
+	line-height: 145%;
 }
 
 .stepImage img {
-    width:100%;
-    height:auto;
-	padding-top: 35px;
+    width: 100%;
+	padding: 5px;
+    height: auto;
 }
 
 .source {
 	background-color: white;
-	padding:7px;
+	padding: 7px;
 	display: flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
 .sourceDescription {
 	width: 100%;
-	padding:7px;
+	padding: 7px;
 }
 
 strong {
