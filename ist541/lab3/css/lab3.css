@@ -3,20 +3,20 @@
 
 body {
 	text-align: center;
-	background-color: your_color_of_choice;  
+	background-color: #DDDDDD;  
 }
 
 a {
 	padding: 15px;
 	margin: 3px;
 	font-size: 125%;
-	background-color:  black; 
-	color:  white; 
+	background-color:  #003663; 
+	color:  #ffffff; 
 }
 
 a:hover {
-	font-size:200%;
-	background-color: your_color_of_choice; 
-	color: your_color_of_choice; 
+	font-size: 200%;
+	background-color: #ff6633; 
+	color: #000000;
 }
 
