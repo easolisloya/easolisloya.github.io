@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-image: url("../img/background.jpg");   /* background image*/
+	background-size: cover;
+	color: #444;          /* text color for the entire document */
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	font-weight: bolder;
+	background-color: #EB7A16; 
+	color: #000000;
+}
+
+a:hover {
+	font-size: 200%;
+	background-color: #000BB3; 
+	color: #FFFFFF;
+}
+
+#wrapper {
+	width: 700px;
+	margin: 0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: rgba(255, 255, 255, 0.8);  /* creates white background with 80% opacity */
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: white;  /* sets background color for table cells*/
+}
+
+h1 { 
+	text-align:center;     /* centers h1 content */
+	color: #000000;
+}
+
+h2 { 
+	text-align:center;     /* centers h2 content */
+	color: #000000;
+}
+
+audio { 
+	width:200px;   /* sets the width of the audio controls */
+}
+
+#lyrebird, #lasergun {
+	width: 250px;
+	height: 300px;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 5: Embedding Audio and Video</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	<h1>Birds Aren't Real!</h1>
+	
+	<br>
+	<!-- START of Nav-->
+	<a href="index.html">Home</a>
+	<a href="page2.html">Birds Are Drones?</a>
+	<a href="page3.html">Don't be fooled!</a>
+	<!-- END of Nav-->
+	
+	<br><br><br>
+	
+		<div id="wrapper">
+		<br>
+			<h2> One is a bird and one is a laser gun. Give them a listen.</h2>
+			<br>
+			<!-- START of Table Code-->
+			<table border="1">
+				<tr>
+					<td>
+						<img id="lyrebird" src="img/lyrebird.jpg"/><br/>Austrailian Lyrebird<br/>
+						<audio controls src="audio/lyrebird.mp3"></audio>
+					</td>
+					<td>
+						<img id="lasergun" src="img/lasergun.jpeg"/><br/>Laser Gun<br/>
+						<audio controls src= "audio/lasergun.mp3">This browser does not support HTML audio</audio>
+					</td>
+				</tr>
+			</table>
+		<!-- END of Table Code-->
+		<br><br>
+		<!-- START of Video iFrame code-->
+			<video  controls  width="500">
+				<source src="video/laserbird.mp4" type="video/mp4"/>
+				<source src="video/numbers.ogg" type="video/ogg"/>
+			</video>
+			<!-- END of Video iFrame code-->
+			<br><br>
+		</div>
+	
+</body>
+</html>
