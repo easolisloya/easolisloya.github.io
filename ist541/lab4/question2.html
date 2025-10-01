@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	
+<head>
+	<meta charset="UTF-8">
+	<title>question2.html</title>
+	<link href="css/spiderman.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	
+	<div id="wrapper">
+		<h1>Who is Spider-Man's most infamous villain??</h1>
+		<h3>Click on one of the following choices</h3>
+		<h2 onclick="wrongAnswer1()" class="choices"> Doctor Octopus </h2>
+		<h2 onclick="wrongAnswer2()" class="choices"> Vulture </h2>
+		<h2 onclick="rightAnswer()" class="choices"> Green Goblin </h2>
+		<h2 onclick="wrongAnswer3()" class="choices"> Carnage </h2>
+		<div id="feedback"></div>
+		<img id="greengoblin" src="img/greengoblin.jpg" alt="The Green Goblin"/>
+	</div>
+
+	<script>
+		function rightAnswer(){
+			$("#feedback").html("<h2 style='color:green'> Correct! The Green Goblin is known for some of Spidey's most challenging battles.</h2>");
+			$("#greengoblin").show();
+		}
+        function wrongAnswer1(){
+			$("#feedback").html("<h2 style='color:red'> Not quite. Doctor Octopus is well-known, but not as well known as... </h2>");
+			$("#doctoroctopus").hide();
+        }
+        function wrongAnswer2(){
+         	$("#feedback").html("<h2 style='color:red'> Hmm, Vulture may fly high, but not as high as ... </h2>");
+         	$("#vulture").hide();
+		}
+		function wrongAnswer3(){
+         	$("#feedback").html("<h2 style='color:red'> Although Carnage is Spider-Man's most unhinged villain, but he's not as infamous as... </h2>");
+         	$("#carnage").hide();
+		}
+	</script>
+
+</body>
+</html>

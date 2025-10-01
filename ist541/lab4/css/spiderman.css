@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#spiderman {
+	border: black 5px solid;
+}
+ 
+#venom {
+	display: none; /* hides content */
+	border: black 5px solid;
+}
+
+#greengoblin {
+	display: none; /* hides content */
+	border: black 5px solid;
+}
+
+.choices {
+	cursor: pointer;
+}

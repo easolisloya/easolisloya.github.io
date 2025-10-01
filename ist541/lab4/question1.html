@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question1.html</title>
+<link href="css/spiderman.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	
+	<div id="wrapper">
+		<h1>Who is Spider-Man's most dangerous villain??</h1>
+		<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+		<img onmouseenter="showAnswer()" id="spiderman" src="img/spiderman.jpg" alt="spider-man" width="400" height="400"/>
+		<img onmouseleave="hideAnswer()" id="venom" src="img/venom.jpg" alt="venom" width="400" height="400"/>
+ 		<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+	</div> <!-- closing  “wrapper” -->
+
+	<script>
+		 function showAnswer() {
+			   $("#spiderman").hide();
+			   $("#venom").show();
+			   $("#answer").html("<h2>Venom is immune to Spider-Man's Spider-Sense!</h2>");
+			}
+
+		function hideAnswer() {
+			   $("#spiderman").show();
+			   $("#venom").hide();
+			   $("#answer").html("");  
+			}
+	</script>
+
+</body>
+</html>
