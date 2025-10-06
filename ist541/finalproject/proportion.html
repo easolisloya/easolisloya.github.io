@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Proportion</title>
+<link href="css/proportion.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	
+	<div class="nav">
+		<a href="index.html">Home</a>
+		<a href="balance.html">Balance</a>
+		<a href="emphasis.html">Emphasis</a>
+		<a href="movement.html">Movement</a>
+		<a href="proportion.html">Proportion</a>
+		<a href="rhythm.html">Rhythm</a>
+		<a href="unity.html">Unity</a>
+	</div>
+	
+	<h1>Proportion</h1>
+	
+	<!-- START of wrapper -->
+	<div id="wrapper">
+		<h2>What is an example of the Proportion principle?</h2>
+		<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+		<img onmouseenter="showAnswer()" id="questionmark" src="img/questionmark.png" alt="White question mark inside a blue background circle." width="400" height="400"/>
+		<img onmouseleave="hideAnswer()" id="emphasis" src="img/proportionA.jpg" alt="A graphic showing the design principle of emphasis with four squares; one red square stands out among three gray ones." width="600" height="400"/>
+ 		<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+	</div>
+	<!-- END of wrapper -->
+
+	<script>
+		 function showAnswer() {
+			   $("#questionmark").hide();
+			   $("#emphasis").show();
+			   $("#answer").html("<h3>The proportion between the red house and tree don't clash.</h3>");
+			}
+
+		function hideAnswer() {
+			   $("#questionmark").show();
+			   $("#emphasis").hide();
+			   $("#answer").html("");  
+			}
+	</script>
+
+</body>
+</html>

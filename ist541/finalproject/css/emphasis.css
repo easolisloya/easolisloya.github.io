@@ -1,0 +1,120 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	text-align: center;
+	background-color: #000000;
+	color: #000000;
+	font-family: "Open Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-variation-settings: "width" 100;
+}
+
+.nav {
+	text-align: center;
+	overflow: hidden;
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+a {
+	padding: 25px;
+	margin: 5px;
+	font-size: 125%;
+	background-color: #04747f; 
+	color: #ffffff; 
+}
+
+a:hover {
+	background-color: #f8bf29; 
+	color: #000000;
+}
+
+h1 {
+	text-decoration: underline;
+	text-align: center;
+	color: #ffffff;
+}
+
+h2, h3 { 
+	text-align: center;
+	color: #ffffff;
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.sec1, .sec2, .sec3 {
+	padding: 20px;
+	text-align: center;
+	background-color: #f79e2b;
+	font-weight: bold;
+	font-size: 150%;
+ }
+
+.sec1Content, .sec2Content, .Sec3Content { 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.sec1Description, .sec3Description {
+	width: 40%;
+	padding: 5px;
+	line-height: 145%;
+	text-align: left;
+}
+
+img {
+	width:40%;
+    height:auto;
+	padding: 25px;
+	padding-bottom:20px;
+	text-align: center;
+}
+
+.source {
+	background-color: white;
+	padding: 7px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.sourceDescription {
+	width: 100%;
+	padding: 7px;
+}
+
+strong {
+  font-weight: 800;
+}
+
+
+.material-icons {
+	color: black;
+	font-size: 3em;
+}
+
+.warning {
+	background-color: lightpink;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+ol {
+	text-align: left;
+}
+
+.emphasisYT {
+	padding: 25px;
+}
